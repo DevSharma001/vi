@@ -1,0 +1,215 @@
+body{
+    font-size: 100%;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    color: rgb(215, 156, 156);
+    letter-spacing: 1.5px;
+}
+.header{
+    height: 10vh;
+    background-color: black;
+    background: transparent;
+    color: red;
+    position:absolute;
+    right: 2rem;
+    opacity: 0.6;
+    letter-spacing: 0.5rem;
+}
+.header h1{
+    margin: 0;
+    font-size: 4.5rem;
+    font-family: cursive;
+}
+.main-first{
+    height: 100vh;
+    background-image: url(elliott-engelmann-DjlKxYFJlTc-unsplash.jpg);
+    background-size:cover;
+    background-position: center;
+    /* margin-bottom: 1rem; */
+}
+.second{
+    background-image: url(https://images.unsplash.com/photo-1526289034009-0240ddb68ce3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80);
+}
+.third{
+    background-image: url(https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+}
+.fourth{
+    background-image: url(https://images.unsplash.com/photo-1483356256511-b48749959172?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+}
+.half-div{
+    width: 50vw;
+    background-color: black;
+    height: 100vh;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.span{
+    color: antiquewhite;
+    position: relative;
+    right: 5.5rem;
+    font-size: 2rem;
+}
+.main-h1{
+    color: rgb(108, 120, 161);
+    line-height: 10px;
+    font-size: 2rem;
+}
+.main-h3{
+    line-height: 1px;
+    font-size: 1.5rem;
+}
+.main-p{
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+.contact-page{
+    background-color: black;
+    background-image: none;
+    background-image: url(assets/img1.jpg);
+    display: flex;
+}
+.contact-half{
+    background-color:rgb(39, 36, 36);
+    display: block;
+    
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: rgb(130, 107, 107);
+    letter-spacing: 1.5px;
+    line-height: 1.5rem;
+}
+img{
+    height: 10rem;
+    border-radius: 50%;
+}
+.innerhalf{
+    width: 30vw;
+    position: relative;
+    left: 10rem;
+}
+.second-half{
+    font-size: x-large;
+    color: rgb(241, 170, 170);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1rem;
+}
+.second-half .resume{
+    font-weight: 900;
+    font-size: 2rem;
+    position: relative;
+    bottom: 3rem;
+}
+.resume-name{
+    line-height: 0;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+@media (max-width:1024px){
+    body{
+        font-size: 60%;
+    }
+    
+    .innerhalf{
+        left: 4rem;
+    }
+    .second-half{
+        font-size: larger;
+    }
+}
+@media (max-width:900px){
+    body{
+        font-size: 40%;
+    }
+    .main-h3 , .main-p{
+        
+        font-size: 1rem;
+    }
+    .span ,.main-h1{
+        font-size: 1rem;
+    }
+    .innerhalf{
+        left: 4rem;
+    }
+    .second-half{
+        font-size:1.5em;
+    }
+    .size{
+        font-size: 1rem;
+    }
+}
+@media (max-width:650px){
+    body{
+        font-size: 30%;
+    }
+    .span ,.main-h1{
+        font-size: 1rem;
+    }
+    .header h1{
+        font-size: 3rem;
+    }
+    .innerhalf{
+        left: 2rem;
+        font-size: 0.5em;
+    }
+    .second-half{
+        font-size:1.5em;
+        width: 50vw;
+        
+    }
+}
+@media (max-width:480px){
+    body{
+        font-size: 20%;
+    }
+    .header h1{
+        font-size: 2rem;
+    }
+    .main-h3 , .main-p{ 
+        font-size: 0.5rem;
+    }
+    .span{
+        left: 0.5rem;
+    }
+    .innerhalf{
+       width: 80vw;
+       top: 0;
+    }
+    .second-half{
+        font-size:0.75rem;
+        width: 80vw;
+        
+    }
+    .contact-half{
+        width: 100vw;
+        height: 60vh;
+    }
+    .contact-page{
+        display: flex;
+        flex-direction: column;
+    }
+    .second-half .resume{
+        bottom: 0rem;
+    }
+}
+@media (max-width:380px){
+    .span ,.main-h1{
+        font-size: 0.5rem;
+    }
+
+}
+@media (max-width:340px){
+.header h1{
+    font-size: 1rem;
+}
+}
